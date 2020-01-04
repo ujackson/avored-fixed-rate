@@ -1,0 +1,27 @@
+{
+    "name" : "ujackson/avored-fixed-rate",
+    "description" : "AvoRed Laravel E commerce - Fixed Rate Shipping Module",
+    "keywords" : [
+        "framework",
+        "avored",
+        "paystack",
+        "shipping"
+    ],
+    "license" : "MIT",
+    "authors" : [{
+        "name" : "Uyime Jackson",
+        "email" : "ujackson@gmail.com"
+    }
+    ],
+    "type" : "avored-module",
+    "require" : {
+        "php": "^7.2",
+        "avored/module-installer" : "1.*",
+        "avored/framework" : "~3.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Ujackson\\AvoRedFixedRate\\" : "src/"
+        }
+    }
+}

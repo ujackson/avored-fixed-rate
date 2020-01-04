@@ -1,0 +1,5 @@
+name: Ujackson Avored Fixed Rate
+identifier: ujackson-avored-fixed-rate
+status: active
+description: Avored Fixed Rate Module
+namespace: Ujackson\AvoredFixedRate\
