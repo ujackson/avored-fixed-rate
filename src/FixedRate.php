@@ -79,14 +79,9 @@ class FixedRate
     /**
      * Processing Amount for this Shipping Option.
      *
-     * @param \Illuminate\Support\Collection $cartProducts
-     * @return self
      */
-    public function process($cartProducts)
+    public function process()
     {
-        //execute the shipping api here
-        $this->amount = $this->configRepo->getValueByCode(self::CONFIG_FIXED_RATE_COST);
-
-        return $this;
+        return $this->amount();
     }
 }
